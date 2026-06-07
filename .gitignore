@@ -1,0 +1,28 @@
+# Maven
+backend/apache-maven-3.9.6/
+backend/maven.zip
+backend/target/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Uploads
+backend/db/app.db
+backend/uploads/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,9 @@
+﻿
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/pages/DistrictDashboard.tsx(3,30): error TS6133: 'User' is declared but its value is never read.
+src/pages/NodalDashboard.tsx(3,30): error TS6133: 'User' is declared but its value is never read.
+src/pages/NodalDashboard.tsx(3,44): error TS6133: 'BarChart2' is declared but its value is never read.
+src/pages/VolunteerDashboard.tsx(4,19): error TS6133: 'User' is declared but its value is never read.
+src/pages/VolunteerDashboard.tsx(5,9): error TS6133: 'Battery' is declared but its value is never read.

@@ -1,0 +1,9 @@
+﻿
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/pages/VolunteerDashboard.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/pages/VolunteerDashboard.tsx(2,50): error TS6133: 'Clock' is declared but its value is never read.
+src/pages/VolunteerDashboard.tsx(2,57): error TS6133: 'XCircle' is declared but its value is never read.
+src/pages/VolunteerDashboard.tsx(2,66): error TS6133: 'ChevronDown' is declared but its value is never read.

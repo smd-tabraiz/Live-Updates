@@ -1,0 +1,8 @@
+﻿Rows: 17960 Cols: 9
+Row 1 : ['Andhra Pradesh ΓÇö Administrative Hierarchy Dataset', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+Row 2 : ['Note: Constituency (MLA/MP) and Panchayat data were not present in the source files. Available hierarchy: Country ΓåÆ State ΓåÆ District ΓåÆ Mandal ΓåÆ Village', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None']
+Row 3 : ['Country', 'State', 'District', 'District Code', 'Mandal (Sub-District)', 'Mandal Code', 'Village', 'Village Code', 'Village Status']
+Row 4 : ['India', 'Andhra Pradesh', 'Alluri Sitharama Raju', '745', 'Ananthagiri', '4845', 'Addategela', '584320', 'Inhabitant']
+Row 5 : ['India', 'Andhra Pradesh', 'Alluri Sitharama Raju', '745', 'Ananthagiri', '4845', 'Ananthagiri', '584209', 'Inhabitant']
+Row 6 : ['India', 'Andhra Pradesh', 'Alluri Sitharama Raju', '745', 'Ananthagiri', '4845', 'Baliaguda @ Cheedivalasa', '584199', 'Inhabitant']
+Row 7 : ['India', 'Andhra Pradesh', 'Alluri Sitharama Raju', '745', 'Ananthagiri', '4845', 'Baliyaguda', '584130', 'Inhabitant']

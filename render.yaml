@@ -1,0 +1,37 @@
+services:
+  # BACKEND SERVICE
+  - type: web
+    name: govconnect-backend
+    env: docker
+    region: singapore # choose your region
+    plan: starter # A paid plan is REQUIRED to attach a persistent disk
+    rootDir: backend
+    healthCheckPath: /api/reports
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: DB_URL
+        value: jdbc:sqlite:/app/data/app.db
+    disk:
+      name: sqlite-data
+      mountPath: /app/data
+      sizeGB: 1
+
+  # FRONTEND SERVICE
+  - type: web
+    name: govconnect-frontend
+    env: static
+    region: singapore
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://govconnect-backend.onrender.com/api # Replace with actual backend URL later if needed
+      - key: VITE_WS_URL
+        value: https://govconnect-backend.onrender.com/ws # Replace with actual backend URL later if needed
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

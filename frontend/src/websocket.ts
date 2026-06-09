@@ -1,4 +1,5 @@
 import { Client } from '@stomp/stompjs';
+// @ts-ignore - Ignore missing types for the dist file
 import SockJS from 'sockjs-client/dist/sockjs';
 
 let stompClient: Client | null = null;
